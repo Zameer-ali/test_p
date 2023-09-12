@@ -1,0 +1,290 @@
+{
+	"info": {
+		"_postman_id": "09c405ed-7aae-4929-a80f-25671fc70cb4",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "zamer",
+							"type": "default"
+						},
+						{
+							"key": "email",
+							"value": "kid12@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "phone",
+							"value": "1231231221",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "default"
+						},
+						{
+							"key": "documents[]",
+							"type": "file",
+							"src": [
+								"/C:/Users/Zameer Ali Tunio/Downloads/Jumprevs VS Jumprods 04-Sep-2023.pdf",
+								"/C:/Users/Zameer Ali Tunio/Downloads/p3.png",
+								"/C:/Users/Zameer Ali Tunio/Downloads/sumair-kar-cv-job.docx"
+							]
+						},
+						{
+							"key": "subjects[]",
+							"value": "Chemistry",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/LARAVEL/test/public/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"LARAVEL",
+						"test",
+						"public",
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "zamer",
+							"type": "default"
+						},
+						{
+							"key": "email",
+							"value": "kid12@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "phone",
+							"value": "1231231221",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "default"
+						},
+						{
+							"key": "documents[]",
+							"type": "file",
+							"src": [
+								"/C:/Users/Zameer Ali Tunio/Downloads/Jumprevs VS Jumprods 04-Sep-2023.pdf",
+								"/C:/Users/Zameer Ali Tunio/Downloads/p3.png",
+								"/C:/Users/Zameer Ali Tunio/Downloads/sumair-kar-cv-job.docx"
+							]
+						},
+						{
+							"key": "subjects[]",
+							"value": "Chemistry",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/LARAVEL/test/public/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"LARAVEL",
+						"test",
+						"public",
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "document",
+							"type": "file",
+							"src": "/C:/Users/Zameer Ali Tunio/Downloads/resume_z.pdf"
+						},
+						{
+							"key": "_method",
+							"value": "patch",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/LARAVEL/test/public/api/documents/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"LARAVEL",
+						"test",
+						"public",
+						"api",
+						"documents",
+						"17"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "zamer",
+							"type": "default"
+						},
+						{
+							"key": "email",
+							"value": "kid12@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "phone",
+							"value": "1231231221",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "default"
+						},
+						{
+							"key": "documents[]",
+							"type": "file",
+							"src": [
+								"/C:/Users/Zameer Ali Tunio/Downloads/Jumprevs VS Jumprods 04-Sep-2023.pdf",
+								"/C:/Users/Zameer Ali Tunio/Downloads/p3.png",
+								"/C:/Users/Zameer Ali Tunio/Downloads/sumair-kar-cv-job.docx"
+							]
+						},
+						{
+							"key": "subjects[]",
+							"value": "Chemistry",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/LARAVEL/test/public/api/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"LARAVEL",
+						"test",
+						"public",
+						"api",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "3|doGAf4VHrw18qhaCTQTNpHp9E3HyVsVqqKLHaLCp7f775a1f",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
